@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span id="root">
+        <section class="section-all">
+            <!-- main part -->
+            <main class="main" role="main">
+                <div class="wrapper">
+                    <article class="article">
+                        <div class="content">
+                            <div class="login-box">
+                                <div class="header">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png
+                                    " alt="INSTAGRAM" class="logo">
+                                </div>
+                                <!-- header -->
+                                <div class="form-wrap">
+                                    <form action="" class="form">
+                                        <div class="input-box">
+                                            <input type="text" id="name" aria-describedby="" placeholder="Phone number, username, or email"
+                                            aria-required="true" maxlength="30" autocapitalize="off" autocorrect="off" name="username" value="" required>
+                                        </div>
+                                        <div class="input-box">
+                                            <input type="password" name="password" id="password" placeholder="Password" aria-describedby="" maxlength="30"
+                                            aria-required="true" autocapitalize="off" autocomplete="off" required>
+                                        </div>
+                                        <span class="button-box">
+                                            <button class="btn" type="submit" name="submit">Log in</button>
+                                        </span>
+                                        <a href="#" class="forgot">forgot password</a>
+                                    </form>
+                                </div>
+                                <!-- form-wrap end -->
+
+                            </div>
+                            <!-- Login box end -->
+                            <div class="login-box">
+                                <p class="text">Don't have an account ? <a href="#">Sign up</a></p>
+                            </div>
+                            <!-- signup box end -->
+                            <div class="app">
+                                <p>Get the app</p>
+                                <div class="app-img">
+                                    <a href="#"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/4b70f6fae447.png" alt=""></a>
+                                    <a href="#"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/f06b908907d5.png" alt=""></a>
+                                </div>
+                                <!-- app img end -->
+                            </div>
+                            <!-- app end -->
+                        </div>
+                        <!-- content end -->
+                    </article>
+                </div>
+                <!-- wrapper end -->
+            </main>
+
+            <!-- Role Footer -->
+            <footer class="footer" role="contentinfo">
+                <div class="footer-container">
+                    <nav class="footer-nav" role="navigation">
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Api</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Term</a></li>
+                            <li><a href="#">Directory</a></li>
+                            <li>
+                                <span class="language">
+                                    Language
+                                    <select name="language" class="select" onchange="la(this.value)">
+                                    <option value="#">English</option>
+                                    <option value="#">Russian</option>
+                                    </select>
+                                </span>
+                            </li>
+                        </ul>
+                    </nav>
+                    <span class="footer-logo">&copy; 2023 Instagram</span>
+                </div>
+                <!-- footer end -->
+            </footer>
+        </section>
+    </span>
+    <!-- root end -->
+
+    <!-- link -->
+    <!-- java script -->
+</body>
+</html>
